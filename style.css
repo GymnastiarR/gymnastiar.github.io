@@ -1,0 +1,132 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Start CSS */
+
+.title{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+header{
+    height: 62px;
+    align-items: center;
+    padding: 0 0 0 32px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #F3F8FC;
+}
+
+ul{
+    color: white;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+    background-color:#808CFA;
+    border-radius: 0 0 0 30px;
+}
+
+.intro{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    height: 280px;
+    background-color: #F3F8FC;
+}
+
+
+.line{
+    width: 20px;
+    height: 10%;
+    background-color: black;
+}
+
+hr{
+    display: flex;
+}
+
+.point{
+    background-color: aqua;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.item{
+    margin-bottom: 20px;
+}
+
+.pendidikan{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
